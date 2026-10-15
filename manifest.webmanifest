@@ -1,17 +1,39 @@
 {
-  "name": "جرّب · المتابعة",
+  "name": "جرّب · النظام المحاسبي",
   "short_name": "جرّب",
-  "description": "متابعة المبيعات والمالية والعملاء من الجوال",
+  "description": "النظام المحاسبي والتشغيلي الداخلي — مركز عون الإتقان",
   "lang": "ar",
   "dir": "rtl",
+  "display": "standalone",
+  "orientation": "portrait-primary",
   "start_url": "./",
   "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0f766e",
-  "theme_color": "#0f766e",
+  "theme_color": "#16162B",
+  "background_color": "#16162B",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
